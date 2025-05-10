@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "city-temperature-discrepancy-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Daniel <danielsh741@gmail.com>"]
+readme = "README.md"
+packages = [{include = "city_temperature_discrepancy_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
